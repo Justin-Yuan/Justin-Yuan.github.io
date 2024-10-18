@@ -7,7 +7,7 @@ subtitle: ML Research @ Qualcomm | ex-Nvidia | ex-Apple | MASc UofT
 profile:
   align: right
   image: profile.png
-  image_circular: true # crops the image to make it circular
+  image_circular: true
   # more_info: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>
