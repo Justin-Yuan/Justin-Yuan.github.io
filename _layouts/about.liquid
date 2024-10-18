@@ -35,10 +35,22 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
+
+        
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix">
+      {{ content }}
+      
+      <!-- Social -->
+      {% if page.social %}
+        <div class="social">
+          <div class="contact-icons-small">{% include social.liquid %}</div>
+        </div>
+      {% endif %}
+    </div>
+
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
@@ -65,6 +77,7 @@ layout: default
     {% endif %}
 
     <!-- Social -->
+    <!--
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
@@ -72,6 +85,7 @@ layout: default
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
+    -->
 
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}

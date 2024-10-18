@@ -1,115 +1,79 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{glossop2022characterising,
+  title={Characterising the Robustness of Reinforcement Learning for Continuous Control using Disturbance Injection},
+  author={Catherine Glossop and Jacopo Panerati and Amrit Krishnan and Zhaocong Yuan and Angela P. Schoellig},
+  booktitle={NeurIPS 2022 Workshop on Distribution Shifts: Connecting Methods and Applications},
+  year={2022},
+  url={https://openreview.net/forum?id=dJPzobZtpZ},
+  abbr={NeurIPS Workshop},
+  abstract={In this study, we leverage the deliberate and systematic fault-injection capabilities of an open-source benchmark suite to perform a series of experiments on state-of-the-art deep and robust reinforcement learning algorithms. We aim to benchmark robustness in the context of continuous action spaces -- crucial for deployment in robot control. We find that robustness is more prominent for action disturbances than it is for disturbances to observations and dynamics. We also observe that state-of-the-art approaches that are not explicitly designed to improve robustness perform at a level comparable to that achieved by those that are. Our study and results are intended to provide insight into the current state of safe and robust reinforcement learning and a foundation for the advancement of the field, in particular, for deployment in robotic systems.},
+  pdf={https://openreview.net/forum?id=dJPzobZtpZ},
+  blog={https://vectorinstitute.ai/vector-ai-engineering-blog-benchmarking-robustness-of-reinforcement-learning-approaches-using-safe-control-gym/}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@mastersthesis{yuan2022benchmarking,
+  title={Benchmarking Reinforcement Learning for Safe Robotics: Constraints, Robustness and Transfer},
+  author={Zhaocong Yuan},
+  year={2022},
+  school={University of Toronto},
+  abbr={Thesis},
+  abstract={Safe learning in robotics aims to deploy robots in real life with complex tasks and safety requirements. To push the agenda of safe learning, a crucial step is establishing common benchmarks that facilitate both reliable evaluations and research development. In this work, we contribute towards this goal by surveying the safe learning literature and proposing a versatile safe learning benchmark suite, safe-control-gym. The benchmark implements a variety of safe learning algorithms spanning control to reinforcement learning, it also implements critical features to support safety-relevant evaluations and algorithm development. With safe-control-gym, we conduct careful benchmarking on model-free reinforcement learning methods with respect to three metrics of safety: constraint satisfaction, robustness, and transfer performance. We envision safe-control-gym to provide a framework that brings various research together, and most importantly to accelerate the progress of safe learning in robotics.},
+  pdf={https://tspace.library.utoronto.ca/handle/1807/125223},
+  code={https://github.com/Justin-Yuan/dsl__projects__benchmark/tree/benchmark}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{yuan2022safe,
+  title={safe-Control-Gym: A Unified Benchmark Suite for Safe Learning-Based Control and Reinforcement Learning in Robotics},
+  author={Yuan, Zhaocong and Hall, Adam W and Zhou, Siqi and Brunke, Lukas and Greeff, Melissa and Panerati, Jacopo and Schoellig, Angela P},
+  journal={IEEE Robotics and Automation Letters},
+  year={2022},
+  publisher={IEEE},
+  abbr={IROS},
+  abstract={In recent years, both reinforcement learning and learning-based control—as well as the study of their safety, which is crucial for deployment in real-world robots—have gained significant traction. However, to adequately gauge the progress and applicability of new results, we need the tools to equitably compare the approaches proposed by the controls and reinforcement learning communities. Here, we propose a new open-source benchmark suite, called safe-control-gym, supporting both model-based and databased control techniques. We provide implementations for three dynamic systems—the cart-pole, the 1D, and 2D quadrotor— and two control tasks—stabilization and trajectory tracking. We propose to extend OpenAI’s Gym API—the de facto standard in reinforcement learning research—with (i) the ability to specify (and query) symbolic dynamics and (ii) constraints, and (iii) (repeatably) inject simulated disturbances in the control inputs, state measurements, and inertial properties. To demonstrate our proposal and in an attempt to bring research communities closer together, we show how to use safe-control-gym to quantitatively compare the control performance, data efficiency, and safety of multiple approaches from the fields of traditional control, learning-based control, and reinforcement learning.},
+  pdf={https://arxiv.org/abs/2109.06325},
+  code={https://github.com/utiasDSL/safe-control-gym/tree/main},
+  selected={true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@article{brunke2022safe,
+  title={Safe learning in robotics: From learning-based control to safe reinforcement learning},
+  author={Brunke, Lukas and Greeff, Melissa and Hall, Adam W and Yuan, Zhaocong and Zhou, Siqi and Panerati, Jacopo and Schoellig, Angela P},
+  journal={Annual Review of Control, Robotics, and Autonomous Systems},
+  volume={5},
+  pages={411--444},
+  year={2022},
+  publisher={Annual Reviews},
+  abbr={Annual Reviews},
+  abstract={The last half decade has seen a steep rise in the number of contributions on safe learning methods for real-world robotic deployments from both the control and reinforcement learning communities. This article provides a concise but holistic review of the recent advances made in using machine learning to achieve safe decision-making under uncertainties, with a focus on unifying the language and frameworks used in control theory and reinforcement learning research. It includes learning-based control approaches that safely improve performance by learning the uncertain dynamics, reinforcement learning approaches that encourage safety or robustness, and methods that can formally certify the safety of a learned control policy. As data- and learning-based robot control methods continue to gain traction, researchers must understand when and how to best leverage them in real-world scenarios where safety is imperative, such as when operating in close proximityto humans. We highlight some of the open challenges that will drive the field of robot learning in the coming years, and emphasize the need for realistic physics-based benchmarks to facilitate fair comparisons between control and reinforcement learning approaches.},
+  pdf={https://www.annualreviews.org/content/journals/10.1146/annurev-control-042920-020211},
+  code={https://github.com/utiasDSL/safe-control-gym/tree/ar},
+  selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@thesis{yuan2020multi,
+  title={Emergent Communication Behaviors in Multi-Agent Systems},
+  author={Zhaocong Yuan},
+  year={2020},
+  school={University of Toronto},
+  abbr={Thesis},
+  abstract={Multi-agent systems are prevalent in real life, powering the majority of people's everyday activities. Multi-agent Reinforcement Learning is the study of these systems by means of machine learning, it has gained much attention in successfully applying to games, robotics and language understanding. This work concerns the emeregent behavior aspeect of MARL, speecifically emergent communications. We extend the MADDPG framework and experiment on a variety of multi-agent tasks from the eOpenAI Multi-agent Particle Environments, which span different behavior modes including cooperationo, competitiono, communication and mixture of those. Besides demonstrating the emergent behavior learnt from each task, we further provide analysis and insights regarding the MARL model design and training. At the end, we outline several possible lines for future work, hoping to inspire more multi-agent related research and advance the field of MARL.},
+  pdf={https://tspace.library.utoronto.ca/handle/1807/125223},
+  code={https://github.com/Justin-Yuan/learn-to-interact}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{kar2019meta,
+  title={Meta-sim: Learning to generate synthetic datasets},
+  author={Kar, Amlan and Prakash, Aayush and Liu, Ming-Yu and Cameracci, Eric and Yuan, Justin and Rusiniak, Matt and Acuna, David and Torralba, Antonio and Fidler, Sanja},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={4551--4560},
+  year={2019},
+  abbr={ICCV},
+  abstract={Training models to high-end performance requires availability of large labeled datasets, which are expensive to get. The goal of our work is to automatically synthesize labeled datasets that are relevant for a downstream task. We propose Meta-Sim, which learns a generative model of synthetic scenes, and obtain images as well as its corresponding ground-truth via a graphics engine. We parametrize our dataset generator with a neural network, which learns to modify attributes of scene graphs obtained from probabilistic scene grammars, so as to minimize the distribution gap between its rendered outputs and target data. If the real dataset comes with a small labeled validation set, we additionally aim to optimize a meta-objective, i.e. downstream task performance. Experiments show that the proposed method can greatly improve content generation quality over a human-engineered probabilistic scene grammar, both qualitatively and quantitatively as measured by performance on a downstream task.},
+  pdf={https://arxiv.org/abs/1904.11621},
+  code={https://github.com/nv-tlabs/meta-sim},
+  award={Oral},
+  website={https://research.nvidia.com/labs/toronto-ai/meta-sim/},
+  selected={true}
 }
