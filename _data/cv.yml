@@ -16,7 +16,7 @@
       institution: University of Toronto, Toronto, Canada
       year: 2022
       description:
-        - Advised by <a href="https://www.dynsyslab.org/prof-angela-schoellig/">Prof. Angela P. Schoellig</a>
+        - Advised by <a href="https://www.dynsyslab.org/prof-angela-schoellig/">Angela P. Schoellig</a>
         - "Thesis: Benchmarking Reinforcement Learning for Safe Robotics: Constraints, Robustness and Transfer"
         # - title: Description 3.
         #   contents:
@@ -26,8 +26,8 @@
       institution: University of Toronto, Toronto, Canada
       year: 2020
       description:
-        - "CGPA: 3.91 / 4.0, graduated with High Honours"
-        - Advised by <a href="https://www.cs.utoronto.ca/~fidler/">Prof. Sanja Fidler</a>
+        - "CGPA: 3.91/4.0, graduated with High Honours"
+        - Advised by <a href="https://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a>
         - "Thesis: Emergent Communication Behaviors in Multi-Agent Systems."
 
 
@@ -53,7 +53,7 @@
         - Siri Natural Language Understanding, Learning-to-Rank models.
 
     - title: Research Intern
-      institution: Data-Driven Decision Making Lab (<a href="https://www.mie.utoronto.ca/faculty_staff/sanner/">Prof. Scott Sanner</a>), Toronto, Canada
+      institution: Data-Driven Decision Making Lab (<a href="https://www.mie.utoronto.ca/faculty_staff/sanner/">Scott Sanner</a>), Toronto, Canada
       year: Summer 2017
       description:
         - Image and text classification, hierarchical attention networks.
@@ -73,7 +73,7 @@
   contents:
     - year: 2020
       items:
-        - Vector Scholarships in Artificial Intelligence (by Vector Institute)
+        - <a href="https://vectorinstitute.ai/programs/scholarship/">Vector Scholarships in Artificial Intelligence</a> (by Vector Institute)
     - year: 2015-2020
       items:
         - University of Toronto Dean’s Honours List
@@ -108,7 +108,7 @@
     - title: Co-founder/VP Marketing/VP Academics
       year: 2016-2019
       description:
-        - University of Toronto Machine Intelligence Student Team (UTMIST).
+        - University of Toronto Machine Intelligence Student Team (<a href="https://utmist.gitlab.io/">UTMIST</a>).
 
     - title: Event Director/Conference and Hackathon Director
       year: 2016-2019

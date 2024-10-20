@@ -32,3 +32,70 @@
 "planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+
+"kar":
+  - firstname: ["Amlan"]
+    url: https://amlankar.github.io/
+
+"prakash":
+  - firstname: ["Aayush"]
+    url: https://aayushp.github.io/
+
+"liu":
+  - firstname: ["Ming-Yu"]
+    url: https://mingyuliu.net/
+
+"cameracci":
+  - firstname: ["Eric"]
+    url: https://www.linkedin.com/in/eric-cameracci-b926505a/?originalSubdomain=ca
+
+"rusiniak":
+  - firstname: ["Matt"]
+    url: https://www.linkedin.com/in/mrusiniak/?originalSubdomain=ch
+
+"acuna":
+  - firstname: ["David"]
+    url: http://www.cs.toronto.edu/~davidj/
+
+"torralba":
+  - firstname: ["Antonio"]
+    url: https://groups.csail.mit.edu/vision/torralbalab/
+
+"fidler":
+  - firstname: ["Sanja"]
+    url: https://www.cs.utoronto.ca/~fidler/
+
+
+"brunke":
+  - firstname: ["Lukas"]
+    url: https://www.lukasbrunke.com/
+
+"greeff":
+  - firstname: ["Melissa"]
+    url: https://roboralab.com/team.html
+
+"hall":
+  - firstname: ["Adam W.", "Adam", "Adam W"]
+    url: https://adamhall.github.io/
+
+"zhou":
+  - firstname: ["Siqi"]
+    url: https://siqizhou.com/
+
+"panerati":
+  - firstname: ["Jacopo"]
+    url: https://jacopopanerati.github.io/
+
+"schoellig":
+  - firstname: ["Angela P.", "Angela", "Angela P"]
+    url: https://www.dynsyslab.org/prof-angela-schoellig/
+
+"krishnan":
+  - firstname: ["Amrit"]
+    url: https://www.linkedin.com/in/amritkrishnan/?originalSubdomain=ca
+
+"glossop":
+  - firstname: ["Catherine"]
+    url: https://www.linkedin.com/in/amritkrishnan/?originalSubdomain=ca
+
