@@ -29,6 +29,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 I obtained my MASc degree in RL and Robotics from [University of Toronto](https://www.utoronto.ca/), advised by [Angela Schoellig](https://www.dynsyslab.org/prof-angela-schoellig/) at [Dynamic Systems Lab (DSL)](https://www.dynsyslab.org/vision-news/), also part of [Vector Institute](https://vectorinstitute.ai/) and [UofT Robotics Institute](https://robotics.utoronto.ca/). Previously, I received my BASc degree in [Engineering Science](https://engsci.utoronto.ca/) from UofT. I was also an intern in Nvidia Toronto AI lab advised by [Sanja Fidler](https://www.cs.utoronto.ca/~fidler/), Apple Siri team based in Seattle, and Data-Driven Decision Making Lab advised by [Scott Sanner](https://www.mie.utoronto.ca/faculty_staff/sanner/). My prior works largely focus on safe RL, transfer learning, and Sim-to-Real tasks.
 
-I currently work at Qualcomm to develop **multi-modal Transformer models for mobile/on-device applications**, exploring various topics such as <u>model distillation</u>, <u>quantization</u>, and <u>parameter efficient finetuning</u> for LLMs or other foundation models. 
+I currently work at Qualcomm and my research of focus spans across small language models (SLM), multimodal foundation models (vision & speech), LLM inference and optimization (e.g. speculative decoding, on-device acceleration), and more recently diffusion large language models (dLLM).
 
 In my leisure time, I play fingerstyle guitar :guitar: and badminton :badminton:.

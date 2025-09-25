@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Join Qualcomm as a Machine Learning Research Engineer on the Embedded AI (eAI) Team. 
+Join **Qualcomm** as a Machine Learning Research Engineer on the Embedded AI team. 

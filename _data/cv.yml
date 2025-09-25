@@ -38,7 +38,10 @@
       institution: Qualcomm, Markham, Canada
       year: 2023 - 
       description:
-        - on-device multi-modal Transformers, model distillation, model quantization, parameter efficient finetuning.
+        - small language models (SLM), LLM inferenece & optimization, on-device learning
+        - multimodal models (vision + audio), multi-task sensing
+        - text-to-speech (TTS), audio-to-speech (ASR) tasks
+        - model distillation, model quantization
 
     - title: Deep Learning Intern
       institution: Nvidia Toronto AI Lab, Toronto, Canada

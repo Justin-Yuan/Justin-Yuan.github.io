@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Vector Institute Industry Workshop (co-speaker).
+[Vector Institute](https://vectorinstitute.ai/) Industry Workshop (guest speaker).

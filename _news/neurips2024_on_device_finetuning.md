@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper **"Stepping Forward on the Last Mile"** accepted to NeurIPS 2024. [[link]](https://neurips.cc/virtual/2024/poster/93031) :sparkles: :smile:
+Paper **"Stepping Forward on the Last Mile"** accepted at NeurIPS 2024. [[link]](https://neurips.cc/virtual/2024/poster/93031) :sparkles: :smile:

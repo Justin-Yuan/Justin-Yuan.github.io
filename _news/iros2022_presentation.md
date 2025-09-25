@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-IROS 2022 presentation of our **safe-control-gym** paper.
+IROS 2022 presentation of our **safe-control-gym** paper. [[link](https://arxiv.org/abs/2109.06325)]

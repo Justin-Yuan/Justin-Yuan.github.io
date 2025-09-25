@@ -1,6 +1,41 @@
 ---
 ---
 
+@article{ramakrishnan2025omnidraft,
+  title={OmniDraft: A Cross-vocabulary, Online Adaptive Drafter for On-device Speculative Decoding},
+  author={Ramakrishnan, Ramchalam Kinattinkara and Yuan, Zhaocong and Zhuo, Shaojie and Feng, Chen and Lin, Yicheng and Su, Chenzheng and Zhang, Xiaopeng},
+  journal={arXiv preprint arXiv:2507.02659},
+  year={2025},
+  abbr={NeurIPS},
+  abstract={Speculative decoding generally dictates having a small, efficient draft model that is either pretrained or distilled offline to a particular target model series, for instance, Llama or Qwen models. However, within online deployment settings, there are two major challenges: 1) usage of a target model that is incompatible with the draft model; 2) expectation of latency improvements over usage and time. In this work, we propose OmniDraft, a unified framework that enables a single draft model to operate with any target model and adapt dynamically to user data. We introduce an online n-gram cache with hybrid distillation fine-tuning to address the cross-vocabulary mismatch across draft and target models; and further improve decoding speed by leveraging adaptive drafting techniques. OmniDraft is particularly suitable for on-device LLM applications where model cost, efficiency and user customization are the major points of contention. This further highlights the need to tackle the above challenges and motivates the \textit{``one drafter for all''} paradigm. We showcase the proficiency of the OmniDraft framework by performing online learning on math reasoning, coding and text generation tasks. Notably, OmniDraft enables a single Llama-68M model to pair with various target models including Vicuna-7B, Qwen2-7B and Llama3-8B models for speculative decoding; and additionally provides up to 1.5-2x speedup.},
+  pdf={https://arxiv.org/abs/2507.02659},
+  selected={true}
+}
+
+@article{feng2025edge,
+  title={Edge-ASR: Towards Low-Bit Quantization of Automatic Speech Recognition Models},
+  author={Feng, Chen and Lin, Yicheng and Zhuo, Shaojie and Su, Chenzheng and Ramakrishnan, Ramchalam Kinattinkara and Yuan, Zhaocong and Zhang, Xiaopeng},
+  journal={arXiv preprint arXiv:2507.07877},
+  year={2025},
+  abbr={arXiv},
+  abstract={Recent advances in Automatic Speech Recognition (ASR) have demonstrated remarkable accuracy and robustness in diverse audio applications, such as live transcription and voice command processing. However, deploying these models on resource-constrained edge devices (e.g., IoT device, wearables) still presents substantial challenges due to strict limits on memory, compute and power. Quantization, particularly Post-Training Quantization (PTQ), offers an effective way to reduce model size and inference cost without retraining. Despite its importance, the performance implications of various advanced quantization methods and bit-width configurations on ASR models remain unclear. In this work, we present a comprehensive benchmark of eight state-of-the-art (SOTA) PTQ methods applied to two leading edge-ASR model families, Whisper and Moonshine. We systematically evaluate model performances (i.e., accuracy, memory I/O and bit operations) across seven diverse datasets from the open ASR leader-board, analyzing the impact of quantization and various configurations on both weights and activations. Built on an extension of the LLM compression toolkit, our framework integrates edge-ASR models, diverse advanced quantization algorithms, a unified calibration and evaluation data pipeline, with detailed analysis tools. Our results characterize the trade-offs between efficiency and accuracy, demonstrating that even 3-bit quantization can succeed on high capacity models when using advanced PTQ techniques. These findings provide valuable insights for optimizing ASR models on low-power, always-on edge devices.},
+  pdf={https://arxiv.org/abs/2507.07877},
+  selected={true}
+}
+
+@article{feng2024stepping,
+  title={Stepping forward on the last mile},
+  author={Feng, Chen and Zhuo, Jay and Zhang, Parker and Kinattinkara Ramakrishnan, Ramchalam and Yuan, Zhaocong and Li, Andrew Zou},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={94851--94870},
+  year={2024},
+  abbr={NeurIPS},
+  abstract={Continuously adapting pre-trained models to local data on resource constrained edge devices is the $\emph{last mile}$ for model deployment. However, as models increase in size and depth, backpropagation requires a large amount of memory, which becomes prohibitive for edge devices. In addition, most existing low power neural processing engines (e.g., NPUs, DSPs, MCUs, etc.) are designed as fixed-point inference accelerators, without training capabilities. Forward gradients, solely based on directional derivatives computed from two forward calls, have been recently used for model training, with substantial savings in computation and memory. However, the performance of quantized training with fixed-point forward gradients remains unclear. In this paper, we investigate the feasibility of on-device training using fixed-point forward gradients, by conducting comprehensive experiments across a variety of deep learning benchmark tasks in both vision and audio domains. We propose a series of algorithm enhancements that further reduce the memory footprint, and the accuracy gap compared to backpropagation. An empirical study on how training with forward gradients navigates in the loss landscape is further explored. Our results demonstrate that on the last mile of model customization on edge devices, training with fixed-point forward gradients is a feasible and practical approach.},
+  pdf={https://arxiv.org/abs/2411.04036},
+  selected={true}
+}
+
 @inproceedings{glossop2022characterising,
   title={Characterising the Robustness of Reinforcement Learning for Continuous Control using Disturbance Injection},
   author={Catherine Glossop and Jacopo Panerati and Amrit Krishnan and Zhaocong Yuan and Angela P. Schoellig},

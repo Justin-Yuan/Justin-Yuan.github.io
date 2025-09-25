@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-ICRA 2022 Workshop on Releasing Robots into the Wild: Simulations, Benchmarks, and Deployment (co-organizer). [website](https://www.dynsyslab.org/releasing-robots-into-the-wild-workshop/)/[videos](https://www.youtube.com/playlist?list=PL-QAFoPUrdcrRhTAv_vdvDicRDEJbK48S)
+ICRA 2022 Workshop on Releasing Robots into the Wild: Simulations, Benchmarks, and Deployment (organizer). [website](https://www.dynsyslab.org/releasing-robots-into-the-wild-workshop/)/[videos](https://www.youtube.com/playlist?list=PL-QAFoPUrdcrRhTAv_vdvDicRDEJbK48S)
